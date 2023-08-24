@@ -3,6 +3,8 @@ import styled from 'styled-components';
 export const TransactionTable = styled.table`
   width: 30%;
   border-collapse: collapse;
+   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 2%;
 `;
 
 export const TableHeader = styled.thead`

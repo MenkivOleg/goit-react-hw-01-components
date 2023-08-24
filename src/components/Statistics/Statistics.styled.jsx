@@ -3,12 +3,14 @@ import styled from 'styled-components';
 export const StatisticsContainer = styled.section`
   margin: 0px auto;
   padding: 10px;
-  background-color: #f4f4f4;
+  background-color: #ffffff;
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 500px;
   height: auto;
+   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 2%;
 `;
 
 export const Title = styled.h2`

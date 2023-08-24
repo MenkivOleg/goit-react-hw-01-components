@@ -10,6 +10,9 @@ export const FriendListItem = styled.li`
   display: flex;
   align-items: center;
   margin-bottom: 10px;
+  padding: 5px;
+   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 2%;
 `;
 
 export const Status = styled.span`

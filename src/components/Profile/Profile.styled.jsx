@@ -1,9 +1,10 @@
 import styled from 'styled-components';
 
 export const ProfileContainer = styled.div`
-  margin: 50px;
+  margin: 25px;
   padding: 50px;
-  border: 2px solid #ccc;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 2%;
 `;
 
 export const DescriptionContainer = styled.div`
@@ -15,22 +16,23 @@ export const Avatar = styled.img`
   width: 100px;
   height: 100px;
   border-radius: 50%;
-  margin-right: 20px;
+  margin-right: 30px;
+  
 `;
 
 export const Name = styled.p`
-  font-size: 32px;
+  font-size: 25px;
   font-weight: bold;
 `;
 
 export const Tag = styled.p`
   font-size: 16px;
-  color: #555;
+  color: #55414187;
 `;
 
 export const Location = styled.p`
   font-size: 16px;
-  color: #555;
+  color: #55414187;
 `;
 
 export const StatsList = styled.ul`
@@ -48,10 +50,10 @@ export const StatsItem = styled.li`
 export const Label = styled.span`
   margin: 10px;
   font-size: 16px;
-  font-weight: bold;
 `;
 
 export const Quantity = styled.span`
   font-size: 18px;
   color: #555;
+  font-weight: bold;
 `;
