@@ -7,7 +7,7 @@ export const StatisticsContainer = styled.section`
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 435px;
+  width: 500px;
   height: auto;
    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
   border-radius: 2%;
@@ -18,18 +18,28 @@ export const Title = styled.h2`
   margin-bottom: 10px;
 `;
 
-export const StatList = styled.ul`
-  display: inline-flex;
-  list-style: none;
-  margin: 20;
-  padding: 0;
-`;
-
 export const StatItem = styled.li`
   display: flex;
   align-items: center;
   justify-content: space-between;
   margin-bottom: 20px;
+  border-radius: 8px;
+  padding: 10px;
+`;
+
+export const StatList = styled.ul`
+  display: inline-flex;
+  list-style: none;
+  margin: 20;
+  padding: 0;
+
+  ${StatItem}:nth-child(odd) {
+    background-color: #0847efc7;
+  }
+
+  ${StatItem}:nth-child(even) {
+    background-color: #e9ca03;
+  }
 `;
 
 export const Label = styled.span`
