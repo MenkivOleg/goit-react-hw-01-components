@@ -2,13 +2,14 @@ import styled from 'styled-components';
 
 export const ProfileContainer = styled.div`
   margin: 25px;
-  padding: 50px;
+  padding: 20px;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
   border-radius: 2%;
 `;
 
 export const DescriptionContainer = styled.div`
   display: flex;
+  flex-direction: column;
   align-items: center;
 `;
 
@@ -16,17 +17,16 @@ export const Avatar = styled.img`
   width: 100px;
   height: 100px;
   border-radius: 50%;
-  margin-right: 30px;
   
 `;
 
 export const Name = styled.p`
-  font-size: 25px;
+  font-size: 27px;
   font-weight: bold;
 `;
 
 export const Tag = styled.p`
-  font-size: 16px;
+  font-size: 14px;
   color: #55414187;
 `;
 

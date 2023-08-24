@@ -7,7 +7,7 @@ export const StatisticsContainer = styled.section`
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 500px;
+  width: 435px;
   height: auto;
    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
   border-radius: 2%;
